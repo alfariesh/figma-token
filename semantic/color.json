@@ -1,0 +1,2979 @@
+{
+  "base": {
+    "color": {
+      "neutral": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Primary background color for main surfaces, cards, and containers",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Subtle background for secondary surfaces, alternating rows, and nested containers",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Muted background for disabled states and inactive elements",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Strong background for emphasized sections, headers, and active states",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Primary text color for body content, paragraphs, and general UI text",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Secondary text for metadata, timestamps, descriptions, and supporting content",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Muted text for placeholders, hints, and disabled content",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Emphasized text for headings, titles, and important content",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Default border color for cards, inputs, dividers, and containers",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Subtle borders for light separators, table rows, and minimal dividers",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Very light borders for gentle visual separation",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Strong borders for emphasis, active states, and important boundaries",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Default fill color for icons, graphics, and shapes",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Subtle fill for secondary icons and decorative elements",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Muted fill for disabled icons and inactive graphics",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Strong fill for emphasized icons and primary graphics",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Default outline for focus states and selection indicators",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Subtle outline for secondary focus indicators",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Strong outline for high-emphasis focus states",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Default divider lines between sections and list items",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Subtle dividers for minimal visual separation",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Strong dividers for clear section boundaries",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.1)",
+            "description": "Default shadow for cards and elevated elements",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.05)",
+            "description": "Subtle shadow for slight elevation",
+            "type": "color"
+          },
+          "strong": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.2)",
+            "description": "Strong shadow for high elevation and modals",
+            "type": "color"
+          }
+        }
+      },
+      "action": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary action background for main buttons and CTAs",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Subtle action background for secondary buttons and hover states",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{core.colors.brand.primary.50}",
+            "description": "Very light action background for ghost buttons and minimal CTAs",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong action background for emphasized CTAs and critical actions",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Interactive text color for links and text buttons",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Subtle interactive text for secondary links",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong interactive text for emphasized links and CTAs",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Border color for outlined buttons and interactive elements",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.300}",
+            "description": "Subtle border for secondary interactive elements",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong border for emphasized interactive elements",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Fill color for interactive icons and action graphics",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Subtle fill for secondary action icons",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong fill for emphasized action icons",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary focus outline for interactive elements",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.300}",
+            "description": "Subtle focus outline for secondary interactions",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong focus outline for critical interactions",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "default": {
+            "value": "{core.colors.brand.primary.200}",
+            "description": "Divider color within action groups and button sets",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.2)",
+            "description": "Shadow for elevated action elements",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.1)",
+            "description": "Subtle shadow for action elements",
+            "type": "color"
+          },
+          "strong": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.3)",
+            "description": "Strong shadow for floating action buttons",
+            "type": "color"
+          }
+        }
+      },
+      "feedback": {
+        "background": {
+          "success": {
+            "value": "{core.colors.sys.constructive.100}",
+            "description": "Background color for success alerts, messages, and positive feedback",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.100}",
+            "description": "Background color for warning messages, cautions, and alerts",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.100}",
+            "description": "Background color for error alerts, validation failures, and critical issues",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.100}",
+            "description": "Background color for informational banners, tooltips, and help content",
+            "type": "color"
+          }
+        },
+        "text": {
+          "success": {
+            "value": "{core.colors.sys.constructive.700}",
+            "description": "Text color for success messages, positive values, and confirmations",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.700}",
+            "description": "Text color for warning labels, caution text, and preventive messages",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.700}",
+            "description": "Text color for error messages, invalid inputs, and critical alerts",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.700}",
+            "description": "Text color for help text, tooltips, and informative content",
+            "type": "color"
+          }
+        },
+        "border": {
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Border color for valid inputs, success states, and positive feedback",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Border color for warning inputs, caution states, and alerts",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Border color for invalid inputs, error states, and validation failures",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Border color for info cards, tooltips, and help containers",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "success": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "Fill color for success icons, checkmarks, and positive indicators",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.600}",
+            "description": "Fill color for warning triangles, alert icons, and caution symbols",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.600}",
+            "description": "Fill color for error circles, X marks, and critical icons",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.600}",
+            "description": "Fill color for info circles, i icons, and help symbols",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Focus outline for success elements",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Focus outline for warning elements",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Focus outline for error elements",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Focus outline for info elements",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "success": {
+            "value": "{core.colors.sys.constructive.200}",
+            "description": "Divider within success messages",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.200}",
+            "description": "Divider within warning messages",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.200}",
+            "description": "Divider within error messages",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.200}",
+            "description": "Divider within info messages",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "success": {
+            "value": "rgba({core.colors.sys.constructive.500}, 0.15)",
+            "description": "Shadow for success alerts and cards",
+            "type": "color"
+          },
+          "warning": {
+            "value": "rgba({core.colors.sys.preventive.500}, 0.15)",
+            "description": "Shadow for warning alerts and cards",
+            "type": "color"
+          },
+          "error": {
+            "value": "rgba({core.colors.sys.destructive.500}, 0.15)",
+            "description": "Shadow for error alerts and cards",
+            "type": "color"
+          },
+          "info": {
+            "value": "rgba({core.colors.sys.informative.500}, 0.15)",
+            "description": "Shadow for info alerts and cards",
+            "type": "color"
+          }
+        }
+      },
+      "brand": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Brand color for hero sections, marketing elements, and brand expression",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Subtle brand background for light accents and secondary brand elements",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{core.colors.brand.primary.50}",
+            "description": "Very light brand background for minimal brand presence",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong brand background for bold brand statements",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Brand color for headlines, emphasis, and brand text",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Subtle brand text for secondary brand messaging",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.800}",
+            "description": "Strong brand text for maximum brand impact",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Brand color for element outlines and brand borders",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.300}",
+            "description": "Subtle brand borders for light brand elements",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Strong brand borders for emphasized brand elements",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Brand color for logos, brand icons, and brand graphics",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Subtle brand fill for secondary brand graphics",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Strong brand fill for bold brand elements",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Brand focus outline for brand elements",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "default": {
+            "value": "{core.colors.brand.primary.200}",
+            "description": "Brand divider for separating brand sections",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.15)",
+            "description": "Brand shadow for elevated brand elements",
+            "type": "color"
+          }
+        }
+      },
+      "inverse": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Dark background for inverted UI sections, dark mode, and contrast areas",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Subtle inverse background for layered dark elements",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Strong inverse background for maximum contrast",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Light text on dark backgrounds for readability",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Subtle light text for secondary content on dark",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Strong light text for emphasis on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Light borders on dark backgrounds for element separation",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Subtle borders on dark backgrounds",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Strong borders on dark backgrounds for emphasis",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Light icons and graphics on dark backgrounds",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Subtle light fill on dark backgrounds",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Strong light fill for emphasis on dark",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Light focus outline on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "default": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Divider lines on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.2)",
+            "description": "Light shadow on dark backgrounds",
+            "type": "color"
+          }
+        }
+      },
+      "overlay": {
+        "background": {
+          "default": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.5)",
+            "description": "Semi-transparent backdrop for modals, dialogs, and overlays",
+            "type": "color"
+          },
+          "light": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.3)",
+            "description": "Light overlay for subtle backdrop effects",
+            "type": "color"
+          },
+          "heavy": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.8)",
+            "description": "Heavy overlay for strong focus on foreground content",
+            "type": "color"
+          },
+          "blur": {
+            "value": "rgba({core.colors.brand.neutral.900}, 0.2)",
+            "description": "Overlay with backdrop blur for glassmorphism effects",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Text color on overlay surfaces",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Subtle text on overlay surfaces",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Border color for elements on overlay",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Subtle border on overlay surfaces",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Icon fill color on overlay surfaces",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Subtle icon fill on overlay surfaces",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Focus outline on overlay elements",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "default": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Divider lines within overlay content",
+            "type": "color"
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.3)",
+            "description": "Shadow for elements on overlay",
+            "type": "color"
+          }
+        }
+      },
+      "elevation": {
+        "surface": {
+          "raised": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Background for raised surfaces like cards and panels",
+            "type": "color"
+          },
+          "overlay": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Background for overlay surfaces like tooltips and popovers",
+            "type": "color"
+          },
+          "modal": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Background for modal dialogs and drawers",
+            "type": "color"
+          },
+          "sticky": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Background for sticky headers and navigation",
+            "type": "color"
+          },
+          "sunken": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Background for recessed areas and wells",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Border for elevated surfaces",
+            "type": "color"
+          }
+        }
+      },
+      "focus": {
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Default focus ring color for keyboard navigation",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Focus ring for elements in error state",
+            "type": "color"
+          },
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Focus ring for success states",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Focus ring on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.1)",
+            "description": "Background highlight for focused elements",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Border color for focused inputs and form elements",
+            "type": "color"
+          }
+        }
+      },
+      "selected": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Background for selected items in lists and menus",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.primary.200}",
+            "description": "Strong selected background for emphasized selections",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{core.colors.brand.primary.800}",
+            "description": "Selected background on dark surfaces",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Text color for selected items",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Selected text on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Border for selected items and active tabs",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Icon fill for selected state",
+            "type": "color"
+          }
+        },
+        "indicator": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Selection indicator bar or dot",
+            "type": "color"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Background for disabled elements and inputs",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Text color for disabled content",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Border color for disabled elements",
+            "type": "color"
+          }
+        },
+        "fill": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Icon fill for disabled state",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Outline for disabled focusable elements",
+            "type": "color"
+          }
+        }
+      },
+      "surface": {
+        "page": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Main page background color",
+            "type": "color"
+          }
+        },
+        "panel": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Panel and card background color",
+            "type": "color"
+          },
+          "raised": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Raised panel background for emphasis",
+            "type": "color"
+          }
+        },
+        "sidebar": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Sidebar and navigation background",
+            "type": "color"
+          }
+        },
+        "header": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Header and toolbar background",
+            "type": "color"
+          }
+        },
+        "footer": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Footer background color",
+            "type": "color"
+          }
+        }
+      },
+      "code": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Background for code blocks and terminals",
+            "type": "color"
+          },
+          "inline": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Background for inline code snippets",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Default code text color",
+            "type": "color"
+          },
+          "inline": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Inline code text color",
+            "type": "color"
+          },
+          "comment": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Code comment color",
+            "type": "color"
+          },
+          "keyword": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "Code keyword highlighting",
+            "type": "color"
+          },
+          "string": {
+            "value": "{core.colors.accent.green.500}",
+            "description": "Code string highlighting",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Border for code blocks",
+            "type": "color"
+          }
+        },
+        "selection": {
+          "default": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.3)",
+            "description": "Selection highlight in code blocks",
+            "type": "color"
+          }
+        },
+        "line": {
+          "highlight": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.1)",
+            "description": "Highlighted line background in code",
+            "type": "color"
+          }
+        }
+      },
+      "loading": {
+        "background": {
+          "track": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Loading progress track background",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Loading progress indicator",
+            "type": "color"
+          },
+          "skeleton": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Skeleton screen base color",
+            "type": "color"
+          },
+          "pulse": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Loading pulse overlay",
+            "type": "color"
+          }
+        },
+        "shimmer": {
+          "base": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Skeleton shimmer base",
+            "type": "color"
+          },
+          "highlight": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Skeleton shimmer highlight wave",
+            "type": "color"
+          }
+        },
+        "spinner": {
+          "primary": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary spinner color",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Secondary spinner track",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Loading message text",
+            "type": "color"
+          }
+        },
+        "dots": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Loading dots indicator",
+            "type": "color"
+          }
+        }
+      },
+      "navigation": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Navigation background",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Navigation item hover",
+            "type": "color"
+          },
+          "current": {
+            "value": "{core.colors.brand.primary.50}",
+            "description": "Current navigation item background",
+            "type": "color"
+          },
+          "active": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Active navigation item while pressed",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Navigation text",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Navigation text hover",
+            "type": "color"
+          },
+          "current": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Current navigation text",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Disabled navigation text",
+            "type": "color"
+          }
+        },
+        "indicator": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Navigation active indicator",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Navigation hover indicator",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Navigation borders",
+            "type": "color"
+          },
+          "current": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Current item border",
+            "type": "color"
+          }
+        },
+        "breadcrumb": {
+          "separator": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Breadcrumb separator color",
+            "type": "color"
+          },
+          "link": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Breadcrumb link color",
+            "type": "color"
+          },
+          "current": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Current breadcrumb color",
+            "type": "color"
+          }
+        }
+      },
+      "badge": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Default badge background",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary badge background",
+            "type": "color"
+          },
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Success badge background",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Warning badge background",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Error badge background",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Info badge background",
+            "type": "color"
+          },
+          "new": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "New item badge",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Default badge text",
+            "type": "color"
+          },
+          "onColor": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Text on colored badges",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Badge border",
+            "type": "color"
+          }
+        },
+        "dot": {
+          "default": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Notification dot",
+            "type": "color"
+          },
+          "urgent": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Urgent notification dot",
+            "type": "color"
+          },
+          "new": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "New content indicator dot",
+            "type": "color"
+          }
+        }
+      },
+      "status": {
+        "online": {
+          "fill": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Online status indicator",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.sys.constructive.100}",
+            "description": "Online status background",
+            "type": "color"
+          }
+        },
+        "offline": {
+          "fill": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Offline status indicator",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Offline status background",
+            "type": "color"
+          }
+        },
+        "busy": {
+          "fill": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Busy/Do not disturb status",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.sys.destructive.100}",
+            "description": "Busy status background",
+            "type": "color"
+          }
+        },
+        "away": {
+          "fill": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Away status indicator",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.sys.preventive.100}",
+            "description": "Away status background",
+            "type": "color"
+          }
+        },
+        "idle": {
+          "fill": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Idle status indicator",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Idle status background",
+            "type": "color"
+          }
+        },
+        "active": {
+          "fill": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "Active/available bright indicator",
+            "type": "color"
+          }
+        }
+      },
+      "validation": {
+        "valid": {
+          "background": {
+            "value": "{core.colors.sys.constructive.50}",
+            "description": "Valid input background",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Valid input border",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.sys.constructive.700}",
+            "description": "Valid message text",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "Valid checkmark icon",
+            "type": "color"
+          }
+        },
+        "invalid": {
+          "background": {
+            "value": "{core.colors.sys.destructive.50}",
+            "description": "Invalid input background",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Invalid input border",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.sys.destructive.700}",
+            "description": "Invalid message text",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{core.colors.sys.destructive.600}",
+            "description": "Invalid icon color",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "background": {
+            "value": "{core.colors.sys.preventive.50}",
+            "description": "Warning validation background",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Warning validation border",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.sys.preventive.700}",
+            "description": "Warning validation text",
+            "type": "color"
+          }
+        },
+        "pristine": {
+          "border": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Untouched field border",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Untouched field background",
+            "type": "color"
+          }
+        }
+      },
+      "commerce": {
+        "sale": {
+          "background": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Sale badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Sale badge text",
+            "type": "color"
+          },
+          "price": {
+            "value": "{core.colors.sys.destructive.600}",
+            "description": "Sale price color",
+            "type": "color"
+          }
+        },
+        "discount": {
+          "background": {
+            "value": "{core.colors.sys.preventive.100}",
+            "description": "Discount badge background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.sys.preventive.700}",
+            "description": "Discount percentage text",
+            "type": "color"
+          }
+        },
+        "original": {
+          "text": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Original price strikethrough",
+            "type": "color"
+          }
+        },
+        "savings": {
+          "text": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "You save amount color",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.sys.constructive.50}",
+            "description": "Savings highlight background",
+            "type": "color"
+          }
+        },
+        "premium": {
+          "background": {
+            "value": "{core.colors.accent.yellow.800}",
+            "description": "Premium/luxury indicator",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{core.colors.accent.yellow.500}",
+            "description": "Premium accent color",
+            "type": "color"
+          }
+        },
+        "stock": {
+          "inStock": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "In stock indicator",
+            "type": "color"
+          },
+          "lowStock": {
+            "value": "{core.colors.sys.preventive.600}",
+            "description": "Low stock warning",
+            "type": "color"
+          },
+          "outOfStock": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Out of stock indicator",
+            "type": "color"
+          }
+        }
+      },
+      "priority": {
+        "critical": {
+          "background": {
+            "value": "{core.colors.sys.destructive.800}",
+            "description": "Critical priority background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Critical priority text",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Critical priority indicator",
+            "type": "color"
+          }
+        },
+        "high": {
+          "background": {
+            "value": "{core.colors.sys.preventive.600}",
+            "description": "High priority background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "High priority text",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "High priority indicator",
+            "type": "color"
+          }
+        },
+        "medium": {
+          "background": {
+            "value": "{core.colors.sys.informative.100}",
+            "description": "Medium priority background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.sys.informative.700}",
+            "description": "Medium priority text",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Medium priority indicator",
+            "type": "color"
+          }
+        },
+        "low": {
+          "background": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Low priority background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Low priority text",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Low priority indicator",
+            "type": "color"
+          }
+        }
+      },
+      "timeline": {
+        "new": {
+          "background": {
+            "value": "{core.colors.accent.cyan.100}",
+            "type": "color",
+            "description": "New item highlight"
+          },
+          "badge": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "New badge color",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.accent.cyan.500}",
+            "description": "New indicator dot",
+            "type": "color"
+          }
+        },
+        "updated": {
+          "background": {
+            "value": "{core.colors.sys.informative.50}",
+            "description": "Updated item highlight",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.sys.informative.500}",
+            "description": "Updated indicator",
+            "type": "color"
+          }
+        },
+        "expired": {
+          "background": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Expired item background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Expired item text",
+            "type": "color"
+          }
+        },
+        "upcoming": {
+          "background": {
+            "value": "{core.colors.sys.preventive.50}",
+            "description": "Upcoming event highlight",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Upcoming event indicator",
+            "type": "color"
+          }
+        }
+      },
+      "social": {
+        "mention": {
+          "background": {
+            "value": "{core.colors.accent.violet.100}",
+            "description": "Mention highlight background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.accent.violet.800}",
+            "description": "Mention text color",
+            "type": "color"
+          }
+        },
+        "reaction": {
+          "background": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Reaction pill background",
+            "type": "color"
+          },
+          "active": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Active reaction background",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Reaction hover state",
+            "type": "color"
+          }
+        },
+        "unread": {
+          "indicator": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Unread indicator dot",
+            "type": "color"
+          },
+          "count": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Unread count badge",
+            "type": "color"
+          },
+          "background": {
+            "value": "{core.colors.brand.primary.50}",
+            "description": "Unread item highlight",
+            "type": "color"
+          }
+        },
+        "presence": {
+          "typing": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Typing indicator color",
+            "type": "color"
+          }
+        }
+      },
+      "notification": {
+        "background": {
+          "default": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Notification toast background",
+            "type": "color"
+          },
+          "success": {
+            "value": "{core.colors.sys.constructive.600}",
+            "description": "Success notification background",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.600}",
+            "description": "Error notification background",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.600}",
+            "description": "Warning notification background",
+            "type": "color"
+          },
+          "info": {
+            "value": "{core.colors.sys.informative.600}",
+            "description": "Info notification background",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Notification text color",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Notification border",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Notification icon color",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "modifier": {
+    "state": {
+      "hover": {
+        "neutral": {
+          "background": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Neutral background on hover state",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Neutral text on hover state",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Neutral border on hover state",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Neutral icon fill on hover state",
+            "type": "color"
+          }
+        },
+        "action": {
+          "background": {
+            "primary": {
+              "value": "{core.colors.brand.primary.600}",
+              "description": "Primary action background on hover",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{core.colors.brand.primary.100}",
+              "description": "Secondary action background on hover",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "{core.colors.brand.primary.50}",
+              "description": "Tertiary action background on hover",
+              "type": "color"
+            }
+          },
+          "text": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Action text color on hover",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Action border color on hover",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Action icon fill on hover",
+            "type": "color"
+          }
+        },
+        "feedback": {
+          "background": {
+            "success": {
+              "value": "{core.colors.sys.constructive.200}",
+              "description": "Success background on hover",
+              "type": "color"
+            },
+            "error": {
+              "value": "{core.colors.sys.destructive.200}",
+              "description": "Error background on hover",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{core.colors.sys.preventive.200}",
+              "description": "Warning background on hover",
+              "type": "color"
+            },
+            "info": {
+              "value": "{core.colors.sys.informative.200}",
+              "description": "Info background on hover",
+              "type": "color"
+            }
+          },
+          "border": {
+            "success": {
+              "value": "{core.colors.sys.constructive.600}",
+              "description": "Success border on hover",
+              "type": "color"
+            },
+            "error": {
+              "value": "{core.colors.sys.destructive.600}",
+              "description": "Error border on hover",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{core.colors.sys.preventive.600}",
+              "description": "Warning border on hover",
+              "type": "color"
+            },
+            "info": {
+              "value": "{core.colors.sys.informative.600}",
+              "description": "Info border on hover",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "active": {
+        "neutral": {
+          "background": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Neutral background when element is currently active (e.g., current nav item)",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Neutral text when active",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Neutral border when active",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Active state indicator bar or dot",
+            "type": "color"
+          }
+        },
+        "action": {
+          "background": {
+            "primary": {
+              "value": "{core.colors.brand.primary.500}",
+              "type": "color",
+              "description": "Primary action background when active/current"
+            },
+            "secondary": {
+              "value": "{core.colors.brand.primary.200}",
+              "description": "Secondary action background when active",
+              "type": "color"
+            }
+          },
+          "text": {
+            "value": "{core.colors.brand.primary.800}",
+            "description": "Action text when active",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Action border when active",
+            "type": "color"
+          }
+        }
+      },
+      "pressed": {
+        "neutral": {
+          "background": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Neutral background when pressed (mousedown/touchstart)",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Neutral border when pressed",
+            "type": "color"
+          }
+        },
+        "action": {
+          "background": {
+            "primary": {
+              "value": "{core.colors.brand.primary.800}",
+              "description": "Primary action when pressed (mousedown)",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{core.colors.brand.primary.300}",
+              "description": "Secondary action when pressed",
+              "type": "color"
+            }
+          },
+          "text": {
+            "value": "{core.colors.brand.primary.800}",
+            "description": "Action text when pressed",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.800}",
+            "description": "Action border when pressed",
+            "type": "color"
+          }
+        },
+        "feedback": {
+          "success": {
+            "background": {
+              "value": "{core.colors.sys.constructive.700}",
+              "description": "Success element when pressed",
+              "type": "color"
+            }
+          },
+          "error": {
+            "background": {
+              "value": "{core.colors.sys.destructive.700}",
+              "description": "Error element when pressed",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "background": {
+              "value": "{core.colors.sys.preventive.700}",
+              "description": "Warning element when pressed",
+              "type": "color"
+            }
+          },
+          "info": {
+            "background": {
+              "value": "{core.colors.sys.informative.700}",
+              "description": "Info element when pressed",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "focus": {
+        "outline": {
+          "primary": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary focus ring color",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Error state focus ring",
+            "type": "color"
+          },
+          "success": {
+            "value": "{core.colors.sys.constructive.500}",
+            "description": "Success state focus ring",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colors.sys.preventive.500}",
+            "description": "Warning state focus ring",
+            "type": "color"
+          },
+          "inverse": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Focus ring on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "background": {
+          "default": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.1)",
+            "description": "Focus highlight background",
+            "type": "color"
+          },
+          "error": {
+            "value": "rgba({core.colors.sys.destructive.500}, 0.1)",
+            "description": "Error focus highlight background",
+            "type": "color"
+          },
+          "success": {
+            "value": "rgba({core.colors.sys.constructive.500}, 0.1)",
+            "description": "Success focus highlight background",
+            "type": "color"
+          }
+        },
+        "border": {
+          "primary": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Primary focus border",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colors.sys.destructive.500}",
+            "description": "Error focus border",
+            "type": "color"
+          }
+        }
+      },
+      "disabled": {
+        "neutral": {
+          "background": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Disabled element background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Disabled text color",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Disabled border color",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Disabled icon fill",
+            "type": "color"
+          }
+        },
+        "action": {
+          "background": {
+            "value": "{core.colors.brand.primary.200}",
+            "description": "Disabled action background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.primary.300}",
+            "description": "Disabled action text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.200}",
+            "description": "Disabled action border",
+            "type": "color"
+          }
+        }
+      },
+      "readonly": {
+        "background": {
+          "value": "{core.colors.brand.neutral.200}",
+          "description": "Readonly field background",
+          "type": "color"
+        },
+        "text": {
+          "value": "{core.colors.brand.neutral.700}",
+          "description": "Readonly field text",
+          "type": "color"
+        },
+        "border": {
+          "value": "{core.colors.brand.neutral.300}",
+          "description": "Readonly field border",
+          "type": "color"
+        }
+      },
+      "visited": {
+        "text": {
+          "default": {
+            "value": "{core.colors.accent.violet.800}",
+            "description": "Visited link color",
+            "type": "color"
+          },
+          "onDark": {
+            "value": "{core.colors.accent.violet.300}",
+            "description": "Visited link on dark background",
+            "type": "color"
+          }
+        }
+      },
+      "selected": {
+        "neutral": {
+          "background": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Selected item background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Selected item text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Selected item border",
+            "type": "color"
+          }
+        },
+        "action": {
+          "background": {
+            "value": "{core.colors.brand.primary.100}",
+            "description": "Selected action background",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Selected action text",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Selected action border",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Selected action icon",
+            "type": "color"
+          },
+          "indicator": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Selected indicator bar",
+            "type": "color"
+          }
+        }
+      },
+      "checked": {
+        "background": {
+          "value": "{core.colors.brand.primary.500}",
+          "description": "Checked checkbox/radio background",
+          "type": "color"
+        },
+        "fill": {
+          "value": "{core.colors.brand.neutral.00}",
+          "description": "Checkmark or radio dot color",
+          "type": "color"
+        },
+        "border": {
+          "value": "{core.colors.brand.primary.500}",
+          "description": "Checked element border",
+          "type": "color"
+        }
+      },
+      "indeterminate": {
+        "background": {
+          "value": "{core.colors.brand.primary.500}",
+          "description": "Indeterminate checkbox background",
+          "type": "color"
+        },
+        "fill": {
+          "value": "{core.colors.brand.neutral.00}",
+          "description": "Indeterminate indicator line",
+          "type": "color"
+        }
+      },
+      "expanded": {
+        "background": {
+          "value": "{core.colors.brand.neutral.200}",
+          "description": "Expanded section background",
+          "type": "color"
+        },
+        "border": {
+          "value": "{core.colors.brand.primary.200}",
+          "description": "Expanded section border",
+          "type": "color"
+        }
+      },
+      "collapsed": {
+        "background": {
+          "value": "transparent",
+          "description": "Collapsed section background",
+          "type": "color"
+        }
+      },
+      "drag": {
+        "dragover": {
+          "background": {
+            "value": "{core.colors.brand.primary.50}",
+            "description": "Drop zone hover background",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.500}",
+            "description": "Drop zone active border",
+            "type": "color"
+          }
+        },
+        "droppable": {
+          "background": {
+            "value": "rgba({core.colors.brand.primary.500}, 0.05)",
+            "description": "Valid drop target background",
+            "type": "color"
+          },
+          "outline": {
+            "value": "{core.colors.brand.primary.300}",
+            "description": "Valid drop target outline",
+            "type": "color"
+          }
+        }
+      },
+      "loading": {
+        "neutral": {
+          "background": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Neutral background on hover state",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Neutral text on hover state",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Neutral border on hover state",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Neutral icon fill on hover state",
+            "type": "color"
+          }
+        },
+        "action": {
+          "background": {
+            "primary": {
+              "value": "{core.colors.brand.primary.800}",
+              "type": "color",
+              "description": "Primary action background on hover"
+            },
+            "secondary": {
+              "value": "{core.colors.brand.primary.100}",
+              "description": "Secondary action background on hover",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "{core.colors.brand.primary.50}",
+              "description": "Tertiary action background on hover",
+              "type": "color"
+            }
+          },
+          "text": {
+            "value": "{core.colors.brand.primary.700}",
+            "description": "Action text color on hover",
+            "type": "color"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Action border color on hover",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{core.colors.brand.primary.600}",
+            "description": "Action icon fill on hover",
+            "type": "color"
+          }
+        },
+        "feedback": {
+          "background": {
+            "success": {
+              "value": "{core.colors.sys.constructive.200}",
+              "description": "Success background on hover",
+              "type": "color"
+            },
+            "error": {
+              "value": "{core.colors.sys.destructive.200}",
+              "description": "Error background on hover",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{core.colors.sys.preventive.200}",
+              "description": "Warning background on hover",
+              "type": "color"
+            },
+            "info": {
+              "value": "{core.colors.sys.informative.200}",
+              "description": "Info background on hover",
+              "type": "color"
+            }
+          },
+          "border": {
+            "success": {
+              "value": "{core.colors.sys.constructive.600}",
+              "description": "Success border on hover",
+              "type": "color"
+            },
+            "error": {
+              "value": "{core.colors.sys.destructive.600}",
+              "description": "Error border on hover",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{core.colors.sys.preventive.600}",
+              "description": "Warning border on hover",
+              "type": "color"
+            },
+            "info": {
+              "value": "{core.colors.sys.informative.600}",
+              "description": "Info border on hover",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "mode": {
+      "on-light": {
+        "text": {
+          "primary": {
+            "value": "{core.colors.brand.neutral.900}",
+            "description": "Primary text on light backgrounds",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Secondary text on light backgrounds",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Tertiary text on light backgrounds",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Disabled text on light backgrounds",
+            "type": "color"
+          },
+          "placeholder": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Placeholder text on light backgrounds",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "primary": {
+            "value": "{core.colors.brand.neutral.800}",
+            "description": "Primary icons on light backgrounds",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Secondary icons on light backgrounds",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Disabled icons on light backgrounds",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Default borders on light backgrounds",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Strong borders on light backgrounds",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Subtle borders on light backgrounds",
+            "type": "color"
+          }
+        }
+      },
+      "on-dark": {
+        "text": {
+          "primary": {
+            "value": "{core.colors.brand.neutral.100}",
+            "description": "Primary text on dark backgrounds",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{core.colors.brand.neutral.300}",
+            "description": "Secondary text on dark backgrounds",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Tertiary text on dark backgrounds",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Disabled text on dark backgrounds",
+            "type": "color"
+          },
+          "placeholder": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Placeholder text on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "primary": {
+            "value": "{core.colors.brand.neutral.200}",
+            "description": "Primary icons on dark backgrounds",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{core.colors.brand.neutral.400}",
+            "description": "Secondary icons on dark backgrounds",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Disabled icons on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{core.colors.brand.neutral.600}",
+            "description": "Default borders on dark backgrounds",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{core.colors.brand.neutral.500}",
+            "description": "Strong borders on dark backgrounds",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{core.colors.brand.neutral.700}",
+            "description": "Subtle borders on dark backgrounds",
+            "type": "color"
+          }
+        },
+        "action": {
+          "primary": {
+            "value": "{core.colors.brand.primary.400}",
+            "description": "Primary action color on dark",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{core.colors.brand.primary.300}",
+            "description": "Primary action hover on dark",
+            "type": "color"
+          }
+        }
+      },
+      "on-brand": {
+        "text": {
+          "primary": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Primary text on brand backgrounds",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.87)",
+            "description": "Secondary text on brand backgrounds",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.60)",
+            "description": "Tertiary text on brand backgrounds",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.38)",
+            "description": "Disabled text on brand backgrounds",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "primary": {
+            "value": "{core.colors.brand.neutral.00}",
+            "description": "Primary icons on brand backgrounds",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.87)",
+            "description": "Secondary icons on brand backgrounds",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.38)",
+            "description": "Disabled icons on brand backgrounds",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.2)",
+            "description": "Default borders on brand backgrounds",
+            "type": "color"
+          },
+          "strong": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.4)",
+            "description": "Strong borders on brand backgrounds",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "rgba({core.colors.brand.neutral.00}, 0.1)",
+            "description": "Subtle borders on brand backgrounds",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "dataviz": {
+    "color": {
+      "categorical": {
+        "series": {
+          "1": {
+            "default": {
+              "value": "{core.colors.brand.primary.500}",
+              "type": "color",
+              "description": "First data series - brand color"
+            },
+            "hover": {
+              "value": "{core.colors.brand.primary.600}",
+              "type": "color",
+              "description": "First data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.brand.primary.300}",
+              "type": "color",
+              "description": "First data series muted/inactive state"
+            }
+          },
+          "2": {
+            "default": {
+              "value": "{core.colors.sys.preventive.500}",
+              "type": "color",
+              "description": "Second data series - warning/orange color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.preventive.600}",
+              "type": "color",
+              "description": "Second data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.sys.preventive.300}",
+              "type": "color",
+              "description": "Second data series muted/inactive state"
+            }
+          },
+          "3": {
+            "default": {
+              "value": "{core.colors.sys.constructive.500}",
+              "type": "color",
+              "description": "Third data series - constructive/green color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.constructive.600}",
+              "type": "color",
+              "description": "Third data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.sys.constructive.300}",
+              "type": "color",
+              "description": "Third data series muted/inactive state"
+            }
+          },
+          "4": {
+            "default": {
+              "value": "{core.colors.sys.informative.500}",
+              "type": "color",
+              "description": "Fourth data series - informative/blue color"
+            },
+            "hover": {
+              "value": "{core.colors.sys.informative.600}",
+              "type": "color",
+              "description": "Fourth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.sys.informative.300}",
+              "type": "color",
+              "description": "Fourth data series muted/inactive state"
+            }
+          },
+          "5": {
+            "default": {
+              "value": "{core.colors.accent.violet.500}",
+              "type": "color",
+              "description": "Fifth data series - violet accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.violet.800}",
+              "type": "color",
+              "description": "Fifth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.violet.300}",
+              "type": "color",
+              "description": "Fifth data series muted/inactive state"
+            }
+          },
+          "6": {
+            "default": {
+              "value": "{core.colors.accent.cyan.500}",
+              "type": "color",
+              "description": "Sixth data series - cyan accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.cyan.800}",
+              "type": "color",
+              "description": "Sixth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.cyan.300}",
+              "type": "color",
+              "description": "Sixth data series muted/inactive state"
+            }
+          },
+          "7": {
+            "default": {
+              "value": "{core.colors.accent.magenta.500}",
+              "type": "color",
+              "description": "Seventh data series - magenta accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.magenta.800}",
+              "type": "color",
+              "description": "Seventh data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.magenta.300}",
+              "type": "color",
+              "description": "Seventh data series muted/inactive state"
+            }
+          },
+          "8": {
+            "default": {
+              "value": "{core.colors.accent.yellow.500}",
+              "type": "color",
+              "description": "Eighth data series - yellow accent"
+            },
+            "hover": {
+              "value": "{core.colors.accent.yellow.800}",
+              "type": "color",
+              "description": "Eighth data series hover state"
+            },
+            "muted": {
+              "value": "{core.colors.accent.yellow.300}",
+              "type": "color",
+              "description": "Eighth data series muted/inactive state"
+            }
+          }
+        }
+      },
+      "sequential": {
+        "brand": {
+          "100": {
+            "value": "{core.colors.brand.primary.100}",
+            "type": "color",
+            "description": "Lightest value in brand sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.brand.primary.200}",
+            "type": "color",
+            "description": "Light value in brand sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.brand.primary.300}",
+            "type": "color",
+            "description": "Light-medium value in brand sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.brand.primary.400}",
+            "type": "color",
+            "description": "Medium value in brand sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.brand.primary.500}",
+            "type": "color",
+            "description": "Base value in brand sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.brand.primary.600}",
+            "type": "color",
+            "description": "Medium-dark value in brand sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.brand.primary.700}",
+            "type": "color",
+            "description": "Dark value in brand sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.brand.primary.800}",
+            "type": "color",
+            "description": "Darkest value in brand sequential scale"
+          }
+        },
+        "neutral": {
+          "100": {
+            "value": "{core.colors.brand.neutral.100}",
+            "type": "color",
+            "description": "Lightest value in neutral sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.brand.neutral.200}",
+            "type": "color",
+            "description": "Light value in neutral sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.brand.neutral.300}",
+            "type": "color",
+            "description": "Light-medium value in neutral sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.brand.neutral.400}",
+            "type": "color",
+            "description": "Medium value in neutral sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.brand.neutral.500}",
+            "type": "color",
+            "description": "Base value in neutral sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.brand.neutral.600}",
+            "type": "color",
+            "description": "Medium-dark value in neutral sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.brand.neutral.700}",
+            "type": "color",
+            "description": "Dark value in neutral sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.brand.neutral.800}",
+            "type": "color",
+            "description": "Darkest value in neutral sequential scale"
+          }
+        },
+        "warm": {
+          "100": {
+            "value": "{core.colors.sys.preventive.100}",
+            "type": "color",
+            "description": "Lightest value in warm sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.sys.preventive.200}",
+            "type": "color",
+            "description": "Light value in warm sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.sys.preventive.300}",
+            "type": "color",
+            "description": "Light-medium value in warm sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.sys.preventive.400}",
+            "type": "color",
+            "description": "Medium value in warm sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.sys.preventive.500}",
+            "type": "color",
+            "description": "Base value in warm sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.sys.preventive.600}",
+            "type": "color",
+            "description": "Medium-dark value in warm sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.sys.preventive.700}",
+            "type": "color",
+            "description": "Dark value in warm sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.sys.preventive.800}",
+            "type": "color",
+            "description": "Darkest value in warm sequential scale"
+          }
+        },
+        "cool": {
+          "100": {
+            "value": "{core.colors.sys.informative.100}",
+            "type": "color",
+            "description": "Lightest value in cool sequential scale"
+          },
+          "200": {
+            "value": "{core.colors.sys.informative.200}",
+            "type": "color",
+            "description": "Light value in cool sequential scale"
+          },
+          "300": {
+            "value": "{core.colors.sys.informative.300}",
+            "type": "color",
+            "description": "Light-medium value in cool sequential scale"
+          },
+          "400": {
+            "value": "{core.colors.sys.informative.400}",
+            "type": "color",
+            "description": "Medium value in cool sequential scale"
+          },
+          "500": {
+            "value": "{core.colors.sys.informative.500}",
+            "type": "color",
+            "description": "Base value in cool sequential scale"
+          },
+          "600": {
+            "value": "{core.colors.sys.informative.600}",
+            "type": "color",
+            "description": "Medium-dark value in cool sequential scale"
+          },
+          "700": {
+            "value": "{core.colors.sys.informative.700}",
+            "type": "color",
+            "description": "Dark value in cool sequential scale"
+          },
+          "800": {
+            "value": "{core.colors.sys.informative.800}",
+            "type": "color",
+            "description": "Darkest value in cool sequential scale"
+          }
+        }
+      },
+      "diverging": {
+        "positive": {
+          "100": {
+            "value": "{core.colors.sys.constructive.100}",
+            "type": "color",
+            "description": "Lightest positive value"
+          },
+          "200": {
+            "value": "{core.colors.sys.constructive.200}",
+            "type": "color",
+            "description": "Light positive value"
+          },
+          "300": {
+            "value": "{core.colors.sys.constructive.300}",
+            "type": "color",
+            "description": "Medium-light positive value"
+          },
+          "400": {
+            "value": "{core.colors.sys.constructive.400}",
+            "type": "color",
+            "description": "Medium positive value"
+          },
+          "500": {
+            "value": "{core.colors.sys.constructive.500}",
+            "type": "color",
+            "description": "Strong positive value"
+          }
+        },
+        "negative": {
+          "100": {
+            "value": "{core.colors.sys.destructive.100}",
+            "type": "color",
+            "description": "Lightest negative value"
+          },
+          "200": {
+            "value": "{core.colors.sys.destructive.200}",
+            "type": "color",
+            "description": "Light negative value"
+          },
+          "300": {
+            "value": "{core.colors.sys.destructive.300}",
+            "type": "color",
+            "description": "Medium-light negative value"
+          },
+          "400": {
+            "value": "{core.colors.sys.destructive.400}",
+            "type": "color",
+            "description": "Medium negative value"
+          },
+          "500": {
+            "value": "{core.colors.sys.destructive.500}",
+            "type": "color",
+            "description": "Strong negative value"
+          }
+        },
+        "neutral": {
+          "default": {
+            "value": "{core.colors.brand.neutral.400}",
+            "type": "color",
+            "description": "Neutral/zero value in diverging scale"
+          }
+        }
+      },
+      "chart": {
+        "background": {
+          "default": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Chart container background"
+          },
+          "plot": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Plot area background"
+          }
+        },
+        "grid": {
+          "major": {
+            "value": "{base.color.neutral.border.subtle}",
+            "type": "color",
+            "description": "Major grid lines"
+          },
+          "minor": {
+            "value": "{core.colors.brand.neutral.200}",
+            "type": "color",
+            "description": "Minor grid lines"
+          }
+        },
+        "axis": {
+          "line": {
+            "value": "{base.color.neutral.border.default}",
+            "type": "color",
+            "description": "Axis lines color"
+          },
+          "label": {
+            "value": "{base.color.neutral.text.subtle}",
+            "type": "color",
+            "description": "Axis labels text color"
+          },
+          "title": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Axis title text color"
+          },
+          "tick": {
+            "value": "{base.color.neutral.border.default}",
+            "type": "color",
+            "description": "Axis tick marks color"
+          }
+        },
+        "legend": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.default}",
+              "type": "color",
+              "description": "Legend item text color"
+            },
+            "inactive": {
+              "value": "{base.color.neutral.text.subtle}",
+              "type": "color",
+              "description": "Inactive legend item text"
+            }
+          },
+          "background": {
+            "value": "{base.color.neutral.background.default}",
+            "type": "color",
+            "description": "Legend background color"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "type": "color",
+            "description": "Legend border color"
+          }
+        },
+        "tooltip": {
+          "background": {
+            "value": "{core.colors.brand.neutral.900}",
+            "type": "color",
+            "description": "Tooltip background color"
+          },
+          "text": {
+            "value": "{base.color.inverse.text.default}",
+            "type": "color",
+            "description": "Tooltip text color"
+          },
+          "border": {
+            "value": "{core.colors.brand.neutral.800}",
+            "type": "color",
+            "description": "Tooltip border color"
+          },
+          "shadow": {
+            "value": "rgba(19, 19, 19, 0.2)",
+            "type": "color",
+            "description": "Tooltip shadow color"
+          }
+        },
+        "selection": {
+          "background": {
+            "value": "rgba(0, 22, 187, 0.1)",
+            "type": "color",
+            "description": "Selection area background"
+          },
+          "border": {
+            "value": "{core.colors.brand.primary.500}",
+            "type": "color",
+            "description": "Selection area border"
+          }
+        },
+        "annotation": {
+          "line": {
+            "value": "{core.colors.brand.neutral.600}",
+            "type": "color",
+            "description": "Annotation line color"
+          },
+          "fill": {
+            "value": "rgba(102, 102, 105, 0.1)",
+            "type": "color",
+            "description": "Annotation area fill"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Annotation text color"
+          }
+        },
+        "title": {
+          "text": {
+            "value": "{base.color.neutral.text.strong}",
+            "type": "color",
+            "description": "Chart title text color"
+          },
+          "subtitle": {
+            "value": "{base.color.neutral.text.subtle}",
+            "type": "color",
+            "description": "Chart subtitle text color"
+          }
+        },
+        "loading": {
+          "background": {
+            "value": "rgba(255, 255, 255, 0.8)",
+            "type": "color",
+            "description": "Loading overlay background"
+          },
+          "text": {
+            "value": "{base.color.neutral.text.default}",
+            "type": "color",
+            "description": "Loading text color"
+          }
+        },
+        "nodata": {
+          "text": {
+            "value": "{base.color.neutral.text.subtle}",
+            "type": "color",
+            "description": "No data message text color"
+          }
+        },
+        "dataLabel": {
+          "text": {
+            "default": {
+              "value": "{base.color.neutral.text.default}",
+              "type": "color",
+              "description": "Data label text color"
+            },
+            "contrast": {
+              "value": "{base.color.inverse.text.default}",
+              "type": "color",
+              "description": "Data label text on colored backgrounds"
+            }
+          },
+          "background": {
+            "value": "rgba(255, 255, 255, 0.9)",
+            "type": "color",
+            "description": "Data label background"
+          },
+          "border": {
+            "value": "{base.color.neutral.border.subtle}",
+            "type": "color",
+            "description": "Data label border"
+          }
+        },
+        "special": {
+          "threshold": {
+            "value": "{core.colors.sys.destructive.500}",
+            "type": "color",
+            "description": "Threshold line color"
+          },
+          "average": {
+            "value": "{core.colors.brand.primary.500}",
+            "type": "color",
+            "description": "Average line color"
+          },
+          "target": {
+            "value": "{core.colors.sys.preventive.500}",
+            "type": "color",
+            "description": "Target line color"
+          }
+        }
+      }
+    }
+  }
+}

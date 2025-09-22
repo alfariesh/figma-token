@@ -1,0 +1,187 @@
+
+[
+  {
+    "id": "theme_light_a7f9c3e1b2d4",
+    "name": "light",
+    "group": "mode",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source", 
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/mode/light": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:1",
+    "$figmaModeId": "2024:0"
+  },
+  {
+    "id": "theme_dark_b8e2d4f5c9a1",
+    "name": "dark", 
+    "group": "mode",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled", 
+      "core/override/mode/dark": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:1",
+    "$figmaModeId": "2024:1"
+  },
+  {
+    "id": "theme_default_c9f3e6a7b5d2",
+    "name": "default",
+    "group": "contrast",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/contrast/default": "enabled",
+      "core/dimensions": "enabled", 
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:2",
+    "$figmaModeId": "2024:2"
+  },
+  {
+    "id": "theme_high_contrast_d1a4f8b9c6e3",
+    "name": "highContrast",
+    "group": "contrast", 
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/contrast/highContrast": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled", 
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:2",
+    "$figmaModeId": "2024:3"
+  },
+  {
+    "id": "theme_lime_e2b5c9a8d7f4",
+    "name": "lime",
+    "group": "brand",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/brands/Lime": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled", 
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:3",
+    "$figmaModeId": "2024:4"
+  },
+  {
+    "id": "theme_blueberries_f3c6d1b9e8a5",
+    "name": "blueberries",
+    "group": "brand",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/brands/Blueberries": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:3", 
+    "$figmaModeId": "2024:5"
+  },
+  {
+    "id": "theme_morras_a4d7e2c5f9b6",
+    "name": "morras",
+    "group": "brand",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/brands/Morras": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled", 
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:3",
+    "$figmaModeId": "2024:6"
+  },
+  {
+    "id": "theme_mint_b5e8f3c2a9d7",
+    "name": "mint",
+    "group": "brand",
+    "selectedTokenSets": {
+      "seed/colors": "source",
+      "seed/dimensions": "source",
+      "seed/typography": "source",
+      "core/colors": "enabled",
+      "core/override/brands/Mint": "enabled",
+      "core/dimensions": "enabled",
+      "semantic/color": "enabled",
+      "semantic/dimension": "enabled",
+      "semantic/text": "enabled",
+      "output/component": "enabled",
+      "output/dataViz": "enabled",
+      "output/graphic": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaCollectionId": "VariableCollectionId:2024:3",
+    "$figmaModeId": "2024:7"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "corner": {
+    "comfort": {
+      "medium": {
+        "value": "{brand.corner.comfort.m}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{brand.corner.comfort.l}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{brand.corner.comfort.s}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

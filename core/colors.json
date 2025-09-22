@@ -1,0 +1,1061 @@
+{
+  "shadow": {
+    "neutral": {
+      "50": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "4",
+            "spread": "-2"
+          },
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "-2"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "100": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2"
+          },
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "-2"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "200": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-4"
+          },
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "8",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "300": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "8",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "-6"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "400": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "12",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "24",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "500": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "14",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "10",
+            "blur": "32",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "600": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "18",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "12",
+            "blur": "42",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "700": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "22",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "14",
+            "blur": "64",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "800": {
+        "value": [
+          {
+            "color": "{core.colors.brand.neutral.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "28",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.neutral.400}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "18",
+            "blur": "88",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    },
+    "primary": {
+      "50": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "4",
+            "spread": "-2"
+          },
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "-2"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "100": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2"
+          },
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "-2"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "200": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "-4"
+          },
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "8",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "300": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "8",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "-6"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "400": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "12",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "24",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "500": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "14",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "10",
+            "blur": "32",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "600": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.200}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "18",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "12",
+            "blur": "42",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "700": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "22",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "14",
+            "blur": "64",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "800": {
+        "value": [
+          {
+            "color": "{core.colors.brand.primary.300}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "28",
+            "spread": "-6"
+          },
+          {
+            "color": "{core.colors.brand.primary.400}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "18",
+            "blur": "88",
+            "spread": "-4"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
+  },
+  "alpha": {
+    "primary": {
+      "100": {
+        "value": "rgba({core.colors.brand.primary.600}, 0.09)",
+        "type": "color"
+      },
+      "200": {
+        "value": "rgba({core.colors.brand.primary.600}, 0.18)",
+        "type": "color"
+      },
+      "300": {
+        "value": "rgba({core.colors.brand.primary.600},0.32)",
+        "type": "color"
+      },
+      "400": {
+        "value": "rgba({core.colors.brand.primary.600},0.38)",
+        "type": "color"
+      },
+      "500": {
+        "value": "rgba({core.colors.brand.primary.600},0.45)",
+        "type": "color"
+      },
+      "600": {
+        "value": "rgba({core.colors.brand.primary.600},0.54)",
+        "type": "color"
+      },
+      "700": {
+        "value": "rgba({core.colors.brand.primary.600},0.63)",
+        "type": "color"
+      },
+      "800": {
+        "value": "rgba({core.colors.brand.primary.600},0.72)",
+        "type": "color"
+      },
+      "900": {
+        "value": "rgba({core.colors.brand.primary.600},0.81)",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "100": {
+        "value": "rgba({core.colors.brand.neutral.900}, 0.09)",
+        "type": "color"
+      },
+      "200": {
+        "value": "rgba({core.colors.brand.neutral.900}, 0.18)",
+        "type": "color"
+      },
+      "300": {
+        "value": "rgba({core.colors.base},0.32)",
+        "type": "color"
+      },
+      "400": {
+        "value": "rgba({core.colors.base},0.38)",
+        "type": "color"
+      },
+      "500": {
+        "value": "rgba({core.colors.base},0.45)",
+        "type": "color"
+      },
+      "600": {
+        "value": "rgba({core.colors.base},0.54)",
+        "type": "color"
+      },
+      "700": {
+        "value": "rgba({core.colors.base},0.63)",
+        "type": "color"
+      },
+      "800": {
+        "value": "rgba({core.colors.base},0.72)",
+        "type": "color"
+      },
+      "900": {
+        "value": "rgba({core.colors.base},0.81)",
+        "type": "color"
+      }
+    }
+  },
+  "gradient": {
+    "neutral": {
+      "darker": {
+        "90deg": {
+          "value": "linear-gradient(90deg, {core.colors.brand.neutral.500} 0%, {core.colors.brand.neutral.600} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 90 degrees"
+        },
+        "100deg": {
+          "value": "linear-gradient(100deg, {core.colors.brand.neutral.500} 0%, {core.colors.brand.neutral.700} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 100 degrees"
+        },
+        "110deg": {
+          "value": "linear-gradient(110deg, {core.colors.brand.neutral.600} 0%, {core.colors.brand.neutral.800} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 110 degrees"
+        },
+        "120deg": {
+          "value": "linear-gradient(120deg, {core.colors.brand.neutral.700} 0%, {core.colors.brand.neutral.900} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 120 degrees"
+        },
+        "45deg": {
+          "value": "linear-gradient(45deg, {core.colors.brand.neutral.600} 0%, {core.colors.brand.neutral.800} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 45 degrees"
+        },
+        "135deg": {
+          "value": "linear-gradient(135deg, {core.colors.brand.neutral.500} 0%, {core.colors.brand.neutral.900} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 135 degrees"
+        },
+        "150deg": {
+          "value": "linear-gradient(150deg, {core.colors.brand.neutral.600} 0%, {core.colors.brand.neutral.900} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 150 degrees"
+        },
+        "180deg": {
+          "value": "linear-gradient(180deg, {core.colors.brand.neutral.600} 0%, {core.colors.brand.neutral.900} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 180 degrees"
+        },
+        "225deg": {
+          "value": "linear-gradient(225deg, {core.colors.brand.neutral.500} 0%, {core.colors.brand.neutral.800} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 225 degrees"
+        },
+        "270deg": {
+          "value": "linear-gradient(270deg, {core.colors.brand.neutral.600} 0%, {core.colors.brand.neutral.800} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 270 degrees"
+        },
+        "315deg": {
+          "value": "linear-gradient(315deg, {core.colors.brand.neutral.500} 0%, {core.colors.brand.neutral.700} 100%)",
+          "type": "color",
+          "description": "Neutral darker gradient 315 degrees"
+        }
+      },
+      "lighter": {
+        "90deg": {
+          "value": "linear-gradient(90deg, {core.colors.brand.neutral.100} 0%, {core.colors.brand.neutral.200} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 90 degrees"
+        },
+        "100deg": {
+          "value": "linear-gradient(100deg, {core.colors.brand.neutral.00} 0%, {core.colors.brand.neutral.300} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 100 degrees"
+        },
+        "110deg": {
+          "value": "linear-gradient(110deg, {core.colors.brand.neutral.100} 0%, {core.colors.brand.neutral.300} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 110 degrees"
+        },
+        "120deg": {
+          "value": "linear-gradient(120deg, {core.colors.brand.neutral.00} 0%, {core.colors.brand.neutral.200} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 120 degrees"
+        },
+        "45deg": {
+          "value": "linear-gradient(45deg, {core.colors.brand.neutral.100} 0%, {core.colors.brand.neutral.300} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 45 degrees"
+        },
+        "135deg": {
+          "value": "linear-gradient(135deg, {core.colors.brand.neutral.00} 0%, {core.colors.brand.neutral.200} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 135 degrees"
+        },
+        "150deg": {
+          "value": "linear-gradient(150deg, {core.colors.brand.neutral.100} 0%, {core.colors.brand.neutral.200} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 150 degrees"
+        },
+        "180deg": {
+          "value": "linear-gradient(180deg, {core.colors.brand.neutral.100} 0%, {core.colors.brand.neutral.300} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 180 degrees"
+        },
+        "225deg": {
+          "value": "linear-gradient(225deg, {core.colors.brand.neutral.00} 0%, {core.colors.brand.neutral.300} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 225 degrees"
+        },
+        "270deg": {
+          "value": "linear-gradient(270deg, {core.colors.brand.neutral.100} 0%, {core.colors.brand.neutral.200} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 270 degrees"
+        },
+        "315deg": {
+          "value": "linear-gradient(315deg, {core.colors.brand.neutral.00} 0%, {core.colors.brand.neutral.200} 100%)",
+          "type": "color",
+          "description": "Neutral lighter gradient 315 degrees"
+        }
+      }
+    },
+    "brand": {
+      "darker": {
+        "90deg": {
+          "value": "linear-gradient(90deg, {core.colors.brand.primary.500} 0%, {core.colors.brand.primary.600} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 90 degrees"
+        },
+        "100deg": {
+          "value": "linear-gradient(100deg, {core.colors.brand.primary.600} 0%, {core.colors.brand.primary.800} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 100 degrees"
+        },
+        "110deg": {
+          "value": "linear-gradient(110deg, {core.colors.brand.primary.500} 0%, {core.colors.brand.primary.700} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 110 degrees"
+        },
+        "120deg": {
+          "value": "linear-gradient(120deg, {core.colors.brand.primary.600} 0%, {core.colors.brand.primary.800} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 120 degrees"
+        },
+        "45deg": {
+          "value": "linear-gradient(45deg, {core.colors.brand.primary.700} 0%, {core.colors.brand.primary.800} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 45 degrees"
+        },
+        "135deg": {
+          "value": "linear-gradient(135deg, {core.colors.brand.primary.500} 0%, {core.colors.brand.primary.800} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 135 degrees"
+        },
+        "150deg": {
+          "value": "linear-gradient(150deg, {core.colors.brand.primary.600} 0%, {core.colors.brand.primary.700} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 150 degrees"
+        },
+        "180deg": {
+          "value": "linear-gradient(180deg, {core.colors.brand.primary.600} 0%, {core.colors.brand.primary.800} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 180 degrees"
+        },
+        "225deg": {
+          "value": "linear-gradient(225deg, {core.colors.brand.primary.500} 0%, {core.colors.brand.primary.700} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 225 degrees"
+        },
+        "270deg": {
+          "value": "linear-gradient(270deg, {core.colors.brand.primary.600} 0%, {core.colors.brand.primary.800} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 270 degrees"
+        },
+        "315deg": {
+          "value": "linear-gradient(315deg, {core.colors.brand.primary.500} 0%, {core.colors.brand.primary.600} 100%)",
+          "type": "color",
+          "description": "Brand darker gradient 315 degrees"
+        }
+      },
+      "lighter": {
+        "90deg": {
+          "value": "linear-gradient(90deg, {core.colors.brand.primary.50} 0%, {core.colors.brand.primary.200} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 90 degrees"
+        },
+        "100deg": {
+          "value": "linear-gradient(100deg, {core.colors.brand.primary.100} 0%, {core.colors.brand.primary.300} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 100 degrees"
+        },
+        "110deg": {
+          "value": "linear-gradient(110deg, {core.colors.brand.primary.50} 0%, {core.colors.brand.primary.300} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 110 degrees"
+        },
+        "120deg": {
+          "value": "linear-gradient(120deg, {core.colors.brand.primary.100} 0%, {core.colors.brand.primary.200} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 120 degrees"
+        },
+        "45deg": {
+          "value": "linear-gradient(45deg, {core.colors.brand.primary.50} 0%, {core.colors.brand.primary.300} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 45 degrees"
+        },
+        "135deg": {
+          "value": "linear-gradient(135deg, {core.colors.brand.primary.100} 0%, {core.colors.brand.primary.300} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 135 degrees"
+        },
+        "150deg": {
+          "value": "linear-gradient(150deg, {core.colors.brand.primary.50} 0%, {core.colors.brand.primary.200} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 150 degrees"
+        },
+        "180deg": {
+          "value": "linear-gradient(180deg, {core.colors.brand.primary.50} 0%, {core.colors.brand.primary.200} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 180 degrees"
+        },
+        "225deg": {
+          "value": "linear-gradient(225deg, {core.colors.brand.primary.100} 0%, {core.colors.brand.primary.300} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 225 degrees"
+        },
+        "270deg": {
+          "value": "linear-gradient(270deg, {core.colors.brand.primary.50} 0%, {core.colors.brand.primary.200} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 270 degrees"
+        },
+        "315deg": {
+          "value": "linear-gradient(315deg, {core.colors.brand.primary.100} 0%, {core.colors.brand.primary.200} 100%)",
+          "type": "color",
+          "description": "Brand lighter gradient 315 degrees"
+        }
+      }
+    },
+    "brandMix": {
+      "darker": {
+        "90deg": {
+          "value": "linear-gradient(90deg, {core.colors.brand.primary.600} 0%, {core.colors.sys.constructive.700} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with constructive colors"
+        },
+        "100deg": {
+          "value": "linear-gradient(100deg, {core.colors.brand.primary.500} 0%, {core.colors.sys.informative.800} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with informative colors"
+        },
+        "110deg": {
+          "value": "linear-gradient(110deg, {core.colors.brand.primary.700} 0%, {core.colors.sys.preventive.600} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with preventive colors"
+        },
+        "120deg": {
+          "value": "linear-gradient(120deg, {core.colors.brand.primary.600} 0%, {core.colors.sys.destructive.700} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with destructive colors"
+        },
+        "45deg": {
+          "value": "linear-gradient(45deg, {core.colors.brand.primary.700} 0%, {core.colors.sys.preventive.600} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with preventive colors"
+        },
+        "135deg": {
+          "value": "linear-gradient(135deg, {core.colors.brand.primary.600} 0%, {core.colors.accent.cyan.800} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with cyan accent"
+        },
+        "150deg": {
+          "value": "linear-gradient(150deg, {core.colors.brand.primary.500} 0%, {core.colors.accent.magenta.800} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with magenta accent"
+        },
+        "180deg": {
+          "value": "linear-gradient(180deg, {core.colors.brand.primary.800} 0%, {core.colors.accent.violet.500} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with violet accent"
+        },
+        "225deg": {
+          "value": "linear-gradient(225deg, {core.colors.brand.primary.600} 0%, {core.colors.sys.destructive.800} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with destructive accent"
+        },
+        "270deg": {
+          "value": "linear-gradient(270deg, {core.colors.brand.primary.700} 0%, {core.colors.sys.preventive.800} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with preventive accent"
+        },
+        "315deg": {
+          "value": "linear-gradient(315deg, {core.colors.brand.primary.500} 0%, {core.colors.sys.constructive.800} 100%)",
+          "type": "color",
+          "description": "Brand mix darker gradient with constructive accent"
+        }
+      },
+      "lighter": {
+        "90deg": {
+          "value": "linear-gradient(90deg, {core.colors.brand.primary.100} 0%, {core.colors.sys.constructive.200} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with constructive colors"
+        },
+        "100deg": {
+          "value": "linear-gradient(100deg, {core.colors.brand.primary.200} 0%, {core.colors.sys.informative.300} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with informative colors"
+        },
+        "110deg": {
+          "value": "linear-gradient(110deg, {core.colors.brand.primary.50} 0%, {core.colors.sys.preventive.100} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with preventive colors"
+        },
+        "120deg": {
+          "value": "linear-gradient(120deg, {core.colors.brand.primary.100} 0%, {core.colors.sys.destructive.200} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with destructive colors"
+        },
+        "45deg": {
+          "value": "linear-gradient(45deg, {core.colors.brand.primary.50} 0%, {core.colors.sys.preventive.100} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with preventive colors"
+        },
+        "135deg": {
+          "value": "linear-gradient(135deg, {core.colors.brand.primary.100} 0%, {core.colors.accent.cyan.300} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with cyan accent"
+        },
+        "150deg": {
+          "value": "linear-gradient(150deg, {core.colors.brand.primary.200} 0%, {core.colors.accent.magenta.300} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with magenta accent"
+        },
+        "180deg": {
+          "value": "linear-gradient(180deg, {core.colors.brand.primary.200} 0%, {core.colors.accent.violet.100} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with violet accent"
+        },
+        "225deg": {
+          "value": "linear-gradient(225deg, {core.colors.brand.primary.100} 0%, {core.colors.sys.destructive.300} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with destructive accent"
+        },
+        "270deg": {
+          "value": "linear-gradient(270deg, {core.colors.brand.primary.50} 0%, {core.colors.sys.preventive.300} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with preventive accent"
+        },
+        "315deg": {
+          "value": "linear-gradient(315deg, {core.colors.brand.primary.200} 0%, {core.colors.sys.constructive.300} 100%)",
+          "type": "color",
+          "description": "Brand mix lighter gradient with constructive accent"
+        }
+      }
+    },
+    "custom": {
+      "sunrise": {
+        "value": "linear-gradient(45deg, {core.colors.sys.preventive.600} 0%, {core.colors.sys.preventive.500} 100%)",
+        "type": "color",
+        "description": "Warm sunrise gradient from preventive to preventive tones"
+      },
+      "sunset": {
+        "value": "linear-gradient(135deg, {core.colors.sys.preventive.800} 0%, {core.colors.sys.destructive.600} 100%)",
+        "type": "color",
+        "description": "Deep sunset gradient from preventive to destructive tones"
+      },
+      "ocean": {
+        "value": "linear-gradient(90deg, {core.colors.sys.informative.500} 0%, {core.colors.accent.cyan.800} 100%)",
+        "type": "color",
+        "description": "Ocean depth gradient from blue to cyan tones"
+      },
+      "forest": {
+        "value": "linear-gradient(180deg, {core.colors.sys.constructive.700} 0%, {core.colors.sys.constructive.500} 100%)",
+        "type": "color",
+        "description": "Forest canopy gradient from deep to light constructive"
+      },
+      "aurora": {
+        "value": "linear-gradient(270deg, {core.colors.accent.violet.500} 0%, {core.colors.accent.cyan.300} 100%)",
+        "type": "color",
+        "description": "Aurora borealis gradient from violet to cyan"
+      },
+      "meadow": {
+        "value": "linear-gradient(45deg, {core.colors.sys.constructive.100} 0%, {core.colors.sys.constructive.300} 100%)",
+        "type": "color",
+        "description": "Spring meadow gradient with soft constructive tones"
+      },
+      "twilight": {
+        "value": "linear-gradient(135deg, {core.colors.accent.violet.800} 0%, {core.colors.sys.informative.600} 100%)",
+        "type": "color",
+        "description": "Evening twilight gradient from purple to blue"
+      },
+      "dawn": {
+        "value": "linear-gradient(90deg, {core.colors.accent.magenta.300} 0%, {core.colors.sys.preventive.200} 100%)",
+        "type": "color",
+        "description": "Early dawn gradient with soft pink and yellow tones"
+      },
+      "coral": {
+        "value": "linear-gradient(180deg, {core.colors.sys.destructive.300} 0%, {core.colors.sys.preventive.100} 100%)",
+        "type": "color",
+        "description": "Coral reef gradient from destructive to soft preventive"
+      },
+      "mist": {
+        "value": "linear-gradient(45deg, {core.colors.accent.cyan.100} 0%, {core.colors.brand.neutral.300} 100%)",
+        "type": "color",
+        "description": "Morning mist gradient with subtle cyan and neutral tones"
+      },
+      "ember": {
+        "value": "linear-gradient(270deg, {core.colors.sys.destructive.800} 0%, {core.colors.sys.preventive.800} 100%)",
+        "type": "color",
+        "description": "Glowing ember gradient from deep destructive to warm preventive"
+      },
+      "storm": {
+        "value": "linear-gradient(135deg, {core.colors.brand.neutral.800} 0%, {core.colors.sys.informative.800} 100%)",
+        "type": "color",
+        "description": "Storm cloud gradient from dark neutral to deep blue"
+      },
+      "lavender": {
+        "value": "linear-gradient(90deg, {core.colors.accent.violet.300} 0%, {core.colors.accent.magenta.100} 100%)",
+        "type": "color",
+        "description": "Soft lavender field gradient"
+      },
+      "flame": {
+        "value": "linear-gradient(180deg, {core.colors.accent.yellow.500} 0%, {core.colors.sys.destructive.800} 100%)",
+        "type": "color",
+        "description": "Fiery flame gradient from yellow to deep destructive"
+      },
+      "glacier": {
+        "value": "linear-gradient(45deg, {core.colors.accent.cyan.100} 0%, {core.colors.sys.informative.300} 100%)",
+        "type": "color",
+        "description": "Cool glacier gradient with icy blue tones"
+      },
+      "desert": {
+        "value": "linear-gradient(270deg, {core.colors.sys.preventive.700} 0%, {core.colors.sys.preventive.300} 100%)",
+        "type": "color",
+        "description": "Desert sand gradient with warm earth tones"
+      },
+      "blossom": {
+        "value": "linear-gradient(135deg, {core.colors.accent.magenta.500} 0%, {core.colors.sys.destructive.100} 100%)",
+        "type": "color",
+        "description": "Cherry blossom gradient with pink tones"
+      },
+      "reef": {
+        "value": "linear-gradient(90deg, {core.colors.accent.cyan.500} 0%, {core.colors.sys.constructive.500} 100%)",
+        "type": "color",
+        "description": "Tropical reef gradient from cyan to teal"
+      },
+      "autumn": {
+        "value": "linear-gradient(180deg, {core.colors.sys.preventive.500} 0%, {core.colors.sys.destructive.600} 100%)",
+        "type": "color",
+        "description": "Autumn leaves gradient with warm fall colors"
+      },
+      "frost": {
+        "value": "linear-gradient(45deg, {core.colors.sys.informative.100} 0%, {core.colors.accent.cyan.300} 100%)",
+        "type": "color",
+        "description": "Morning frost gradient with cool blue tones"
+      },
+      "moonlight": {
+        "value": "linear-gradient(270deg, {core.colors.sys.informative.200} 0%, {core.colors.accent.violet.100} 100%)",
+        "type": "color",
+        "description": "Soft moonlight gradient with pale blue and violet"
+      },
+      "volcano": {
+        "value": "linear-gradient(135deg, {core.colors.brand.neutral.900} 0%, {core.colors.sys.destructive.800} 100%)",
+        "type": "color",
+        "description": "Volcanic lava gradient from black to molten destructive"
+      },
+      "oasis": {
+        "value": "linear-gradient(90deg, {core.colors.accent.cyan.500} 0%, {core.colors.sys.constructive.300} 100%)",
+        "type": "color",
+        "description": "Desert oasis gradient with refreshing blue-constructive"
+      },
+      "rainbow": {
+        "value": "linear-gradient(180deg, {core.colors.sys.destructive.500} 0%, {core.colors.accent.yellow.500} 25%, {core.colors.sys.constructive.500} 50%, {core.colors.accent.cyan.500} 75%, {core.colors.accent.violet.500} 100%)",
+        "type": "color",
+        "description": "Rainbow spectrum gradient"
+      },
+      "nebula": {
+        "value": "linear-gradient(45deg, {core.colors.accent.magenta.800} 0%, {core.colors.sys.informative.500} 50%, {core.colors.accent.violet.300} 100%)",
+        "type": "color",
+        "description": "Deep space nebula gradient"
+      },
+      "tundra": {
+        "value": "linear-gradient(270deg, {core.colors.brand.neutral.200} 0%, {core.colors.accent.cyan.100} 100%)",
+        "type": "color",
+        "description": "Arctic tundra gradient with cold whites and blues"
+      },
+      "savanna": {
+        "value": "linear-gradient(135deg, {core.colors.sys.preventive.300} 0%, {core.colors.sys.preventive.100} 100%)",
+        "type": "color",
+        "description": "African savanna gradient with warm golden tones"
+      },
+      "lagoon": {
+        "value": "linear-gradient(90deg, {core.colors.accent.cyan.300} 0%, {core.colors.sys.constructive.100} 100%)",
+        "type": "color",
+        "description": "Tropical lagoon gradient with turquoise waters"
+      },
+      "harvest": {
+        "value": "linear-gradient(180deg, {core.colors.accent.yellow.800} 0%, {core.colors.sys.preventive.600} 100%)",
+        "type": "color",
+        "description": "Golden harvest gradient with wheat field colors"
+      },
+      "spring": {
+        "value": "linear-gradient(45deg, {core.colors.sys.constructive.200} 0%, {core.colors.accent.magenta.300} 100%)",
+        "type": "color",
+        "description": "Fresh spring gradient with constructive and pink blooms"
+      },
+      "arctic": {
+        "value": "linear-gradient(270deg, {core.colors.accent.cyan.800} 0%, {core.colors.brand.neutral.100} 100%)",
+        "type": "color",
+        "description": "Arctic ice gradient with deep blue to white"
+      },
+      "dusk": {
+        "value": "linear-gradient(135deg, {core.colors.sys.informative.700} 0%, {core.colors.sys.preventive.300} 100%)",
+        "type": "color",
+        "description": "Evening dusk gradient transitioning day to night"
+      },
+      "rainforest": {
+        "value": "linear-gradient(90deg, {core.colors.sys.constructive.800} 0%, {core.colors.sys.constructive.300} 100%)",
+        "type": "color",
+        "description": "Dense rainforest gradient with rich constructives"
+      },
+      "lightning": {
+        "value": "linear-gradient(180deg, {core.colors.brand.neutral.900} 0%, {core.colors.accent.violet.500} 50%, {core.colors.accent.cyan.300} 100%)",
+        "type": "color",
+        "description": "Electric lightning gradient"
+      },
+      "sandstorm": {
+        "value": "linear-gradient(45deg, {core.colors.sys.preventive.800} 0%, {core.colors.sys.preventive.500} 100%)",
+        "type": "color",
+        "description": "Desert sandstorm gradient with dusty preventives"
+      },
+      "riverbed": {
+        "value": "linear-gradient(270deg, {core.colors.brand.neutral.600} 0%, {core.colors.sys.informative.300} 100%)",
+        "type": "color",
+        "description": "River bed gradient with stone and water tones"
+      },
+      "wildfire": {
+        "value": "linear-gradient(135deg, {core.colors.sys.destructive.800} 0%, {core.colors.accent.yellow.800} 50%, {core.colors.sys.destructive.500} 100%)",
+        "type": "color",
+        "description": "Intense wildfire gradient"
+      },
+      "bloom": {
+        "value": "linear-gradient(90deg, {core.colors.accent.magenta.100} 0%, {core.colors.sys.destructive.300} 100%)",
+        "type": "color",
+        "description": "Flower bloom gradient with soft pinks"
+      },
+      "midnight": {
+        "value": "linear-gradient(180deg, {core.colors.brand.neutral.900} 0%, {core.colors.sys.informative.800} 100%)",
+        "type": "color",
+        "description": "Deep midnight gradient"
+      },
+      "sunflower": {
+        "value": "linear-gradient(45deg, {core.colors.accent.yellow.300} 0%, {core.colors.sys.preventive.500} 100%)",
+        "type": "color",
+        "description": "Bright sunflower gradient"
+      },
+      "waterfall": {
+        "value": "linear-gradient(270deg, {core.colors.accent.cyan.100} 0%, {core.colors.sys.informative.500} 50%, {core.colors.brand.neutral.200} 100%)",
+        "type": "color",
+        "description": "Cascading waterfall gradient"
+      },
+      "amethyst": {
+        "value": "linear-gradient(135deg, {core.colors.accent.violet.800} 0%, {core.colors.accent.magenta.500} 100%)",
+        "type": "color",
+        "description": "Deep amethyst crystal gradient"
+      },
+      "honey": {
+        "value": "linear-gradient(90deg, {core.colors.sys.preventive.300} 0%, {core.colors.accent.yellow.500} 100%)",
+        "type": "color",
+        "description": "Golden honey gradient"
+      },
+      "moss": {
+        "value": "linear-gradient(180deg, {core.colors.sys.constructive.600} 0%, {core.colors.sys.constructive.800} 100%)",
+        "type": "color",
+        "description": "Forest moss gradient with deep constructives"
+      },
+      "pearl": {
+        "value": "linear-gradient(45deg, {core.colors.brand.neutral.100} 0%, {core.colors.accent.magenta.100} 50%, {core.colors.accent.cyan.100} 100%)",
+        "type": "color",
+        "description": "Iridescent pearl gradient"
+      },
+      "thunder": {
+        "value": "linear-gradient(270deg, {core.colors.brand.neutral.800} 0%, {core.colors.sys.informative.600} 50%, {core.colors.accent.violet.800} 100%)",
+        "type": "color",
+        "description": "Thunderstorm gradient with electric purple"
+      },
+      "jade": {
+        "value": "linear-gradient(135deg, {core.colors.sys.constructive.500} 0%, {core.colors.sys.constructive.300} 100%)",
+        "type": "color",
+        "description": "Precious jade stone gradient"
+      },
+      "ruby": {
+        "value": "linear-gradient(90deg, {core.colors.sys.destructive.800} 0%, {core.colors.sys.destructive.500} 100%)",
+        "type": "color",
+        "description": "Deep ruby gemstone gradient"
+      },
+      "sapphire": {
+        "value": "linear-gradient(180deg, {core.colors.sys.informative.800} 0%, {core.colors.sys.informative.500} 100%)",
+        "type": "color",
+        "description": "Royal sapphire gradient"
+      }
+    }
+  }
+}
