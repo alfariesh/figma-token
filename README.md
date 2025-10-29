@@ -1,5 +1,5 @@
 
-# Design Token Systems
+# Design Token System
 
 Sistem design token yang fleksibel dan dapat disesuaikan untuk mendukung multiple brand dan tema dengan aksesibilitas AAA compliance.
 
