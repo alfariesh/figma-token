@@ -2,119 +2,119 @@
   "typography": {
     "display": {
       "large": {
-        "value": "{core.typography.display.2xl.black}",
+        "value": "{typography.display.2xl.black}",
         "type": "typography",
         "description": "Large display text for hero sections and major headlines"
       },
       "medium": {
-        "value": "{core.typography.display.xl.extraBold}",
+        "value": "{typography.display.xl.extraBold}",
         "type": "typography",
         "description": "Medium display text for section heroes"
       },
       "small": {
-        "value": "{core.typography.display.lg.bold}",
+        "value": "{typography.display.lg.bold}",
         "type": "typography",
         "description": "Small display text for feature headlines"
       }
     },
     "heading": {
       "1": {
-        "value": "{core.typography.display.lg.bold}",
+        "value": "{typography.display.lg.bold}",
         "type": "typography",
         "description": "H1 - Primary page heading"
       },
       "2": {
-        "value": "{core.typography.display.md.semiBold}",
+        "value": "{typography.display.md.semiBold}",
         "type": "typography",
         "description": "H2 - Major section heading"
       },
       "3": {
-        "value": "{core.typography.display.sm.semiBold}",
+        "value": "{typography.display.sm.semiBold}",
         "type": "typography",
         "description": "H3 - Subsection heading"
       },
       "4": {
-        "value": "{core.typography.text.xl.medium}",
+        "value": "{typography.text.xl.medium}",
         "type": "typography",
         "description": "H4 - Minor heading"
       },
       "5": {
-        "value": "{core.typography.text.lg.medium}",
+        "value": "{typography.text.lg.medium}",
         "type": "typography",
         "description": "H5 - Small heading"
       },
       "6": {
-        "value": "{core.typography.text.base.semiBold}",
+        "value": "{typography.text.base.semiBold}",
         "type": "typography",
         "description": "H6 - Smallest heading"
       }
     },
     "body": {
       "large": {
-        "value": "{core.typography.text.lg.regular}",
+        "value": "{typography.text.lg.regular}",
         "type": "typography",
         "description": "Large body text for emphasis paragraphs"
       },
       "medium": {
-        "value": "{core.typography.text.base.regular}",
+        "value": "{typography.text.base.regular}",
         "type": "typography",
         "description": "Default body text for paragraphs"
       },
       "small": {
-        "value": "{core.typography.text.sm.regular}",
+        "value": "{typography.text.sm.regular}",
         "type": "typography",
         "description": "Small body text for secondary content"
       }
     },
     "label": {
       "large": {
-        "value": "{core.typography.text.base.medium}",
+        "value": "{typography.text.base.medium}",
         "type": "typography",
         "description": "Large labels for form fields and UI elements"
       },
       "medium": {
-        "value": "{core.typography.text.sm.medium}",
+        "value": "{typography.text.sm.medium}",
         "type": "typography",
         "description": "Default labels for UI components"
       },
       "small": {
-        "value": "{core.typography.text.xs.medium}",
+        "value": "{typography.text.xs.medium}",
         "type": "typography",
         "description": "Small labels for compact UI elements"
       }
     },
     "caption": {
       "default": {
-        "value": "{core.typography.text.xs.regular}",
+        "value": "{typography.text.xs.regular}",
         "type": "typography",
         "description": "Default caption text for images and tables"
       },
       "strong": {
-        "value": "{core.typography.text.xs.semiBold}",
+        "value": "{typography.text.xs.semiBold}",
         "type": "typography",
         "description": "Emphasized caption text"
       }
     },
     "code": {
       "inline": {
-        "value": "{core.typography.text.sm.regular}",
+        "value": "{typography.text.sm.regular}",
         "type": "typography",
         "description": "Inline code within text"
       },
       "block": {
-        "value": "{core.typography.text.sm.regular}",
+        "value": "{typography.text.sm.regular}",
         "type": "typography",
         "description": "Code blocks and snippets"
       }
     },
     "quote": {
       "default": {
-        "value": "{core.typography.text.lg.regular}",
+        "value": "{typography.text.lg.regular}",
         "type": "typography",
         "description": "Blockquote text style"
       },
       "citation": {
-        "value": "{core.typography.text.sm.regular}",
+        "value": "{typography.text.sm.regular}",
         "type": "typography",
         "description": "Quote attribution text"
       }
@@ -133,62 +133,62 @@
         "description": "Default link style inheriting parent text"
       },
       "standalone": {
-        "value": "{core.typography.text.base.medium}",
+        "value": "{typography.text.base.medium}",
         "type": "typography",
         "description": "Standalone link style"
       }
     },
     "overline": {
       "default": {
-        "value": "{core.typography.text.xs.semiBold}",
+        "value": "{typography.text.xs.semiBold}",
         "type": "typography",
         "description": "Overline text above headings"
       }
     },
     "button": {
       "large": {
-        "value": "{core.typography.text.base.semiBold}",
+        "value": "{typography.text.base.semiBold}",
         "type": "typography",
         "description": "Large button text"
       },
       "medium": {
-        "value": "{core.typography.text.sm.semiBold}",
+        "value": "{typography.text.sm.semiBold}",
         "type": "typography",
         "description": "Medium button text"
       },
       "small": {
-        "value": "{core.typography.text.xs.semiBold}",
+        "value": "{typography.text.xs.semiBold}",
         "type": "typography",
         "description": "Small button text"
       }
     },
     "badge": {
       "default": {
-        "value": "{core.typography.text.xs.semiBold}",
+        "value": "{typography.text.xs.semiBold}",
         "type": "typography",
         "description": "Badge and tag text"
       }
     },
     "table": {
       "header": {
-        "value": "{core.typography.text.sm.semiBold}",
+        "value": "{typography.text.sm.semiBold}",
         "type": "typography",
         "description": "Table header text"
       },
       "cell": {
-        "value": "{core.typography.text.sm.regular}",
+        "value": "{typography.text.sm.regular}",
         "type": "typography",
         "description": "Table cell text"
       }
     },
     "helper": {
       "default": {
-        "value": "{core.typography.text.sm.regular}",
+        "value": "{typography.text.sm.regular}",
         "type": "typography",
         "description": "Helper and hint text"
       },
       "error": {
-        "value": "{core.typography.text.sm.medium}",
+        "value": "{typography.text.sm.medium}",
         "type": "typography",
         "description": "Error message text"
       }
