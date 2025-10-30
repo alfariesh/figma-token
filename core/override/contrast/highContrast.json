@@ -16,11 +16,11 @@
             "type": "color"
           },
           "300": {
-            "value": "{colors.seed.carrot.1700}",
+            "value": "{colors.seed.carrot.1800}",
             "type": "color"
           },
           "400": {
-            "value": "{colors.seed.carrot.1700}",
+            "value": "{colors.seed.carrot.1800}",
             "type": "color"
           },
           "500": {
@@ -54,11 +54,11 @@
             "type": "color"
           },
           "300": {
-            "value": "{colors.seed.chilli.1300}",
+            "value": "{colors.seed.chilli.1600}",
             "type": "color"
           },
           "400": {
-            "value": "{colors.seed.chilli.1400}",
+            "value": "{colors.seed.chilli.1800}",
             "type": "color"
           },
           "500": {
@@ -88,15 +88,15 @@
             "type": "color"
           },
           "200": {
-            "value": "{colors.seed.cucumber.200}",
+            "value": "{colors.seed.cucumber.1800}",
             "type": "color"
           },
           "300": {
-            "value": "{colors.seed.cucumber.1700}",
+            "value": "{colors.seed.cucumber.1800}",
             "type": "color"
           },
           "400": {
-            "value": "{colors.seed.cucumber.1700}",
+            "value": "{colors.seed.cucumber.1800}",
             "type": "color"
           },
           "500": {
@@ -130,11 +130,11 @@
             "type": "color"
           },
           "300": {
-            "value": "{colors.seed.sky.1700}",
+            "value": "{colors.seed.sky.1800}",
             "type": "color"
           },
           "400": {
-            "value": "{colors.seed.sky.1700}",
+            "value": "{colors.seed.sky.1800}",
             "type": "color"
           },
           "500": {
